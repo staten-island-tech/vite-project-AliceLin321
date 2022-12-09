@@ -1,9 +1,76 @@
 const menu = [
-    {name: "",
-    glutenfree: falese,
-    price:3.0,
-    available: true,
+    {name: "Pho",
+    vegan: ,
+    price:3,
+    available: t,
 
     },
+    {name: "",
+    vegan: f,
+    price:3,
+    available: t,
+
+    },
+    {name: "",
+    vegan: f,
+    price:3,
+    available: t,
+
+    },
+    {name: "",
+    vegan: f,
+    price:3,
+    available: t,
+
+    },
+    {name: "",
+    vegan: f,
+    price:3,
+    available: t,
+
+    },
+    {name: "",
+    vegan: f,
+    price:3,
+    available: t,
+
+    },
+    {name: "",
+    vegan: f,
+    price:3,
+    available: t,
+
+    },
+    {name: "",
+    vegan: f,
+    price:3,
+    available: t,
+
+    },
+    {name: "",
+    vegan: f,
+    price:3,
+    available: t,
+
+    },
+    {name: "",
+    vegan: f,
+    price:3,
+    available: t,
+
+    },
+    {name: "",
+    vegan: f,
+    price:3,
+    available: t,
+
+    },
+    {name: "",
+    vegan: f,
+    price:3,
+    available: t,
+
+    },
+ 
 ];
 export {menu}
