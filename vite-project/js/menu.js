@@ -1,76 +1,12 @@
 const menu = [
-    {name: "Pho",
+    {name: "Beef Pho",
     vegan: ,
     price:3,
+    img:"",
     available: t,
 
     },
-    {name: "",
-    vegan: f,
-    price:3,
-    available: t,
 
-    },
-    {name: "",
-    vegan: f,
-    price:3,
-    available: t,
-
-    },
-    {name: "",
-    vegan: f,
-    price:3,
-    available: t,
-
-    },
-    {name: "",
-    vegan: f,
-    price:3,
-    available: t,
-
-    },
-    {name: "",
-    vegan: f,
-    price:3,
-    available: t,
-
-    },
-    {name: "",
-    vegan: f,
-    price:3,
-    available: t,
-
-    },
-    {name: "",
-    vegan: f,
-    price:3,
-    available: t,
-
-    },
-    {name: "",
-    vegan: f,
-    price:3,
-    available: t,
-
-    },
-    {name: "",
-    vegan: f,
-    price:3,
-    available: t,
-
-    },
-    {name: "",
-    vegan: f,
-    price:3,
-    available: t,
-
-    },
-    {name: "",
-    vegan: f,
-    price:3,
-    available: t,
-
-    },
  
 ];
 export {menu}
