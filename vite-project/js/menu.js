@@ -1,6 +1,6 @@
 const menu = [
     {name: "Beef Pho",
-    vegan: ,
+    vegan: "",
     price:3,
     img:"",
     available: t,
