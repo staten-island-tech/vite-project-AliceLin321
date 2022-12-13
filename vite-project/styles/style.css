@@ -7,4 +7,83 @@
   color: beige;
   margin-top: 60px;
 };
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%; /* normally 100% but we want it to be 10 px so its 62.5%*/
+}
 
+.header {
+  text-align: center;
+  font-size: 10rem;
+}
+h2 {
+  font-size: 4.5rem;
+  font-family: "Lora", serif;
+  text-align: center;
+  margin: auto;
+  background-color: rgb(182, 233, 178);
+  width: auto;
+  border: 0.25rem solid;
+  border-color: rgb(173, 173, 191);
+  border-radius: 25px;
+
+  background-color: rgb(132, 112, 191);
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+body {
+  background-image: url(https://cdn.evergreenlandscapes.ca/wp-content/uploads/2018/06/grass.jpg.webp);
+  background-size: cover;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2%;
+}
+.card {
+  background-color: rgb(231, 231, 185);
+  border: 8px solid rgb(179, 204, 198);
+  border-radius: 10%;
+  width: 27%;
+  height: 50rem;
+  margin: 2%;
+  align-content: flex-end;
+  box-shadow: 3em 3em 3em;
+  transition: all 0.3s;
+}
+@keyframes example {
+  0% {
+    background-color: rgb(142, 184, 216);
+  }
+  25% {
+    background-color: rgb(150, 157, 240);
+  }
+  50% {
+    background-color: rgb(93, 86, 199);
+  }
+
+  75% {
+    background-color: rgb(62, 77, 209);
+  }
+  100% {
+    background-color: rgb(142, 184, 216);
+  }
+}
+@media screen and (max-width: 800px) {
+  .card {
+    background-color: rgb(148, 218, 159);
+    width: 90%;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1075px) {
+  .card {
+    background-color: rgb(69, 109, 77);
+    width: 45%;
+  }
+}
