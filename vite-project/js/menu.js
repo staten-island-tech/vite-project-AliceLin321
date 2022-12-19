@@ -72,8 +72,6 @@ const menu = [
 
   { name: "Nom hoa chuoi", vegan: true, price: $6, img: "https://www.vietnamonline.com/media/uploads/froala_editor/images/VNO_NomHoaChuoi.jpg", halal: true },
 
-  { name: "Banh khot", vegan: false, price: 3, img: "", halal: true },
-
   { name: "bahn knot", vegan: false, price: 3, img: "https://www.wokandkin.com/wp-content/uploads/2021/02/Banh-Khot-Close-Up-saved-for-web.png", halal: true },
 ];
 export { menu };
