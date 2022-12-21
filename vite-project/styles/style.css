@@ -9,36 +9,6 @@
   font-size: 60px;
 };
 
-@keyframes example {
-  0% {
-    background-color: rgb(142, 184, 216);
-  }
-  25% {
-    background-color: rgb(150, 157, 240);
-  }
-  50% {
-    background-color: rgb(93, 86, 199);
-  }
-
-  75% {
-    background-color: rgb(62, 77, 209);
-  }
-  100% {
-    background-color: rgb(142, 184, 216);
-  }
-}
-@media screen and (max-width: 800px) {
-  .card {
-    background-color: rgb(148, 218, 159);
-    width: 90%;
-  }
-}
-@media screen and (min-width: 800px) and (max-width: 1075px) {
-  .card {
-    background-color: rgb(69, 109, 77);
-    width: 45%;
-  }
-}
 :root {
   --black: #000;
   --light-blue: #2998ff;
@@ -47,7 +17,7 @@
   --dark-red: #dc2626;
   --gray: #252c30;
 
-  --primary: var var(--light-blue);
+  --primary: var(--light-blue);
   --secondary: var(--dark-blue);
 
   --h1: 7.594rem;
@@ -55,6 +25,12 @@
   --h3: 3.7rem;
   --h4: 2rem;
   --h5: 1rem;
+}
+.cool{
+  
+}
+.warm{
+
 }
 .hero {
   background-color: var(--primary) ;
