@@ -14,3 +14,5 @@ menu
   .forEach((menu) =>
     Dom.menupage.insertAdjacentHTML("beforeend", `<h1>${menu.name}</h1>`)
   );
+
+  Dom.menupage.insertAdjacentHTML("beforeend")
