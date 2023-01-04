@@ -1,6 +1,6 @@
 @import url(variables.css);
 #app {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
   color: beige;
   margin-top: 60px;
@@ -26,7 +26,7 @@
 }
 body {
   background-image: url(https://wallpaperforu.com/wp-content/uploads/2020/08/food-wallpaper-20080219241525.jpg);
-background-size: 100% auto;
+  background-size: 100% auto;
 }
 .parent {
   display: flex;
@@ -36,12 +36,12 @@ background-size: 100% auto;
 }
 
 .child {
-  width: 30%;
+  width: 25%;
   height: 550px;
   border: 3px solid #362312;
   border-radius: 25px;
   margin-bottom: 50px;
-  background-color: #4B382A;
+  background-color: #4b382a;
 }
 
 .img {
@@ -49,13 +49,22 @@ background-size: 100% auto;
   height: 60%;
   border-radius: 25px;
 }
-
-.title {
-  font-size: 150px;
-}
-
 .price {
   font-size: 55px;
- color: #795c32;
+  color: white;
+  text-align: center;
 }
-
+button {
+  font-size: 30px;
+  border-radius: 10px;
+}
+h1 {
+  text-align: center;
+  font-size: 80px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-shadow: #000 100px;
+}
+.main{
+  text-align: center;
+}
