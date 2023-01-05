@@ -15,7 +15,7 @@ const menu = [
   },
   {
     name: "Spring Roll",
-    vegan: "false",
+    vegan: "true",
     price: 6,
     img: "https://cookieandkate.com/images/2019/08/fresh-spring-rolls-recipe-4.jpg",
     halal: "true",
