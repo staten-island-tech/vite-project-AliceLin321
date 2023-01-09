@@ -4,13 +4,20 @@ import { menu } from "./menu.js";
 
 const DOM = {
   menupage: document.getElementById("menupage"),
-  btn: document.getElementById("btn"),
   nonvegan: document.getElementById("nonvegan"),
   halal: document.getElementById("halal"),
   nonhalal: document.getElementById("nothalal"),
   mainmenu: document.getElementById("everything"),
 };
-
+document.querySelector(".btn").addEventListener("click", function () {
+  if (document.body.classList.contains("dirt")) {
+    document.body.classList.add("earth");
+    document.body.classList.remove("dirt");
+  } else {
+    document.body.classList.add("dirt");
+    document.body.classList.remove("warm");
+  }
+});
 DOM.btn.addEventListener("click", function () {
   console.log("hi");
 });
