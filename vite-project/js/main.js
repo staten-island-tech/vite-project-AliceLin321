@@ -8,17 +8,18 @@ const DOM = {
   halal: document.getElementById("halal"),
   nonhalal: document.getElementById("nothalal"),
   mainmenu: document.getElementById("everything"),
+  theme: document.getElementById("btn"),
 };
-document.querySelector(".btn").addEventListener("click", function () {
-  if (document.body.classList.contains("dirt")) {
-    document.body.classList.add("earth");
-    document.body.classList.remove("dirt");
+DOM.theme.addEventListener("click", function () {
+  if (document.body.classList.contains("cool")) {
+    document.body.classList.remove("cool");
+    document.body.classList.add("warm");
   } else {
-    document.body.classList.add("dirt");
     document.body.classList.remove("warm");
+    document.body.classList.add("cool");
   }
 });
-DOM.btn.addEventListener("click", function () {
+DOM.theme.addEventListener("click", function () {
   console.log("hi");
 });
 
@@ -68,7 +69,7 @@ function all() {
   );
 }
 
-DOM.btn.addEventListener("click", function () {
+DOM.theme.addEventListener("click", function () {
   DOM.menupage.innerHTML = "";
   screwvegan();
 });

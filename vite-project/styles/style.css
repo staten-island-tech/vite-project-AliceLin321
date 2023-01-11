@@ -15,9 +15,6 @@
   --dark-red: #dc2626;
   --gray: #252c30;
 
-  --primary: var(--light-blue);
-  --secondary: var(--dark-blue);
-
   --h1: 7.594rem;
   --h2: 5rem;
   --h3: 3.7rem;
@@ -25,23 +22,22 @@
   --h5: 1rem;
 }
 .warm {
-  --primary: (var(--light-red));
-  --secondary: var(var(--dark-red));
+  --primary: var(--light-red);
+  --secondary: var(--dark-red);
 }
 .cool {
-  --primary: (var(--light-blue));
-  --secondary: var(var(--dark-blue));
+  --primary: var(--light-blue);
+  --secondary: var(--dark-blue);
 }
 .hero {
-  background-color: var(--light-blue);
+  background-color: var(--primary);
   text-align: center;
   font-size: 80px;
-  color: white;
   font-family: "Roboto", sans-serif;
   text-shadow: #000 100px;
 }
 .main {
-  background-color: var(--light-blue);
+  background-color: var(--primary);
   height: 90vh;
 }
 
@@ -98,13 +94,12 @@ h1,
 h2,
 h3,
 h4,
-h5
-{
+h5 {
   text-align: center;
 }
 .btn,
 .btn:link,
-.btn:visited{
+.btn:visited {
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
@@ -117,7 +112,7 @@ h5
 }
 .btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 0.5rem rgba(0,0,0,0.2);
+  box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
 }
 .main {
   text-align: center;
