@@ -9,8 +9,8 @@
 
 :root {
   --black: #000;
-  --light-blue: #2998ff;
-  --dark-blue: #135cc5;
+  --light-blue: #371d10;
+  --dark-blue: #9a7b4f;
   --light-red: #f87171;
   --dark-red: #dc2626;
   --gray: #252c30;
@@ -31,14 +31,25 @@
 }
 .hero {
   background-color: var(--primary);
+  margin-left:  700px;
+  margin-right: 700px;
+  border-radius: 10px;
+  size: 500px;
+}
+.Olive {
   text-align: center;
   font-size: 80px;
   font-family: "Roboto", sans-serif;
-  text-shadow: #000 100px;
-}
+  text-shadow: rgb(255, 255, 255) 50px;
+  color:royalblue ;
+};
+
 .main {
   background-color: var(--primary);
-  height: 90vh;
+  margin-left: 521.3px;
+  margin-right: 521.3px;
+  border-radius: 10px;
+  size: 500px;
 }
 
 body {

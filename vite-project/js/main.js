@@ -5,6 +5,7 @@ import { menu } from "./menu.js";
 const DOM = {
   menupage: document.getElementById("menupage"),
   nonvegan: document.getElementById("nonvegan"),
+  vegan: document.getElementById("vegan"),
   halal: document.getElementById("halal"),
   nonhalal: document.getElementById("nothalal"),
   mainmenu: document.getElementById("everything"),
@@ -69,7 +70,7 @@ function all() {
   );
 }
 
-DOM.theme.addEventListener("click", function () {
+DOM.vegan.addEventListener("click", function () {
   DOM.menupage.innerHTML = "";
   screwvegan();
 });
@@ -154,3 +155,5 @@ function nonhalal() {
       )
     );
 }
+
+f;
