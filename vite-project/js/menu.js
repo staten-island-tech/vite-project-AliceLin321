@@ -9,7 +9,7 @@ const menu = [
   {
     name: "Veggie Pho",
     vegan: "true",
-    price: 9,
+    price: 6,
     img: "https://www.simplysogood.com/wp-content/uploads/2018/01/untitled-8-1.jpg",
     halal: "true",
   },

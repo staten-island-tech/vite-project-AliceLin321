@@ -31,18 +31,16 @@
 }
 .hero {
   background-color: var(--primary);
-  margin-left:  700px;
+  margin-left: 700px;
   margin-right: 700px;
   border-radius: 10px;
+  color: var(--secondary);
   size: 500px;
-}
-.Olive {
   text-align: center;
   font-size: 80px;
   font-family: "Roboto", sans-serif;
   text-shadow: rgb(255, 255, 255) 50px;
-  color:royalblue ;
-};
+}
 
 .main {
   background-color: var(--primary);
@@ -70,6 +68,9 @@ body {
   border-radius: 25px;
   margin-bottom: 50px;
   background-color: #4b382a;
+  background-color: var(--primary);
+  border: 3px solid var(--secondary);
+  
 }
 
 .img {
